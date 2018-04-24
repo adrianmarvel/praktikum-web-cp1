@@ -1,0 +1,50 @@
+body
+{
+	background-image: url("img/main menu1.jpg");
+	background-size: 100% 100%;
+}
+
+
+.kiri
+{
+	background-image: url("img/ blur bg.png");
+	background-size: 100% 100%;
+	padding-top: 150px;
+	color: white;
+	padding-left: 150px;
+	height: 300px;
+}
+p
+{
+	text-indent: 50px;
+	padding-top: 10px;
+	text-align: justify;
+}
+h1
+{
+	font-size: 400%;
+}
+.kanan1
+{
+	font-size: 200%;
+	padding-top: 200px;
+	text-align: center;
+	height: 300px;
+}
+
+.kanan2
+{
+	padding-top: 40px;
+	height: 100px;
+}
+
+.kanan3
+{
+	padding-top: 40px;
+	height: 100px;
+}
+
+.kanan1 a
+{
+	color: white;
+}
