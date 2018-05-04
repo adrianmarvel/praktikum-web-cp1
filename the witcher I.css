@@ -1,0 +1,102 @@
+body
+{
+	background-image: url("img/witcher1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.spasi1
+{
+	height: 50px;
+	background-color: white;
+}
+img.logo
+{
+	padding-top: 5px;
+}
+.witcher1
+{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white; 
+}
+.witcher2
+{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white; 
+}
+.witcher3
+{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white; 
+}
+.witcher1 a
+{
+	color: silver;
+}
+.witcher2 a
+{
+	color: gray;
+}
+.witcher3 a
+{
+	color: gray;
+}
+
+.kiri
+{
+	height: 600px;
+	color: white;
+}
+.kanan
+{
+	padding-left: 190px;	
+	align-content: center;
+}
+img.geralt1
+{
+	height: 100%;
+	width: 100%;
+}
+h1
+{
+	padding-top: 40px;
+	padding-left: 30px;
+}
+p
+{
+	padding-top: 28px;
+	padding-left: 25px;
+	text-indent: 35px;
+	text-align: justify;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+li a.active {
+    background-color: gray;
+    color: white;
+}
