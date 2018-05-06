@@ -1,0 +1,92 @@
+.spasi1
+{
+	height: 50px;
+	background-color: white;
+}
+img.logo
+{
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.witcher1
+{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white; 
+}
+.witcher2
+{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white; 
+}
+.witcher3
+{
+	text-align: center;
+	padding-top: 10px;
+	background-color: white; 
+}
+.witcher1 a
+{
+	color: gray;
+}
+.witcher2 a
+{
+	color: gray;
+}
+.witcher3 a
+{
+	color: silver;
+}
+.bg
+{
+	background-image: url("img/witcher 3.jpg");
+	background-size: 100% 100%;
+}
+h1
+{
+	padding-top: 20px;
+	padding-left: 25px;
+	color: white;
+}
+p
+{
+	text-indent: 35px;
+	padding-left: 25px;
+	color: white;
+	text-align: justify;
+}
+p.p1
+{
+	padding-top: 70px;
+	padding-right: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+li a.active {
+    background-color: gray;
+    color: white;
+}
