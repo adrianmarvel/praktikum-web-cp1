@@ -38,7 +38,15 @@ img.logo
 {
 	color: gray;
 }
-
+.kiri
+{
+	color: white;
+	padding-top: 100px;
+}
+form
+{
+	padding-left: 50px;
+}
 .kanan
 {
 	height: 600px;

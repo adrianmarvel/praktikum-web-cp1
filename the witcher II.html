@@ -8,6 +8,24 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
 	<script type="js/bootstr.min.js"></script>
 	<link href="the witcher II.css" type="text/css"    rel="stylesheet" /> 
+
+	<script>
+	function validateForm() {
+	    var x = document.forms["myForm"]["fname"].value;
+	    if (x == "") {
+	        alert("Must be yes or no");
+	        return false;
+	    } else if (x == "yes")
+	    {
+	    	alert("good");
+	    	return false;
+	    } else if (x == "no")
+	    {
+	    	alert("you should try");
+	    	return false;
+	    }
+	}
+	</script>
 <body>
 		<ul><a href="main menu.html"> <img src="img/logo2.png" class="logo" width="200px" height="45px"/></a></div>
  			<li><a href="the witcher III.html">the Witcher III</a></li>
@@ -15,7 +33,14 @@
   			<li><a href="the witcher I.html">the Witcher I</a></li>
 		</ul>
 		<div class="row satu">
-			<div class="col-sm-6 kiri"></div>
+			<div class="col-sm-6 kiri">
+				<h1>DO YOU EVER PLAY THE WITHER?</h1>
+				<form name="myForm" action="/action_page.php"
+				onsubmit="return validateForm()" method="post">
+				Your Answer: <input type="text" name="fname">
+				<input type="submit" value="Submit">
+				</form>
+			</div>
 			<div class="col-sm-6 kanan">
 				<h1>THE WITCHER II: ASSASSINS OF KINGS</h1>
 				<p>Now in the employ of King Foltest - and the arms of Triss Merigold - Geralt helps the king rescue his illegitimate children from a former lover. Unfortunately, since things never go according to plan, the King is murdered by another assassin, who also happened to be a Witcher. Geralt is framed for the murder, thrown in jail, and interrogated by Temerian Supercop Vernon Roche.</p>

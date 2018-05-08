@@ -2,18 +2,21 @@ body
 {
 	background-image: url("img/main menu1.jpg");
 	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 .kiri
 {
-	background-image: url("img/ blur bg.png");
-	background-size: 100% 100%;
 	padding-top: 150px;
 	color: white;
 	padding-left: 150px;
 	height: 300px;
 }
+
 p
 {
 	text-indent: 50px;
@@ -30,6 +33,9 @@ h1
 	padding-top: 200px;
 	text-align: center;
 	height: 300px;
+
+	width: 50%;
+	float: left;
 }
 
 .kanan2
@@ -47,4 +53,31 @@ h1
 .kanan1 a
 {
 	color: white;
+}
+.col-6
+{
+	width: 50%
+}
+@media only screen and (max-width: 900px) 
+{
+    /* For mobile phones: */
+   [class*="col-"] 
+    {
+        width: 100%;
+    }
+    container-fliud
+    {
+    	width: 100%;
+    }
+    body
+    {
+    	background-size: 200% 116%;
+    }
+   .kiri
+   {
+  		padding-top: 100px;
+  		padding-left: 40px;
+  		padding-right: 40px;
+
+   }
 }

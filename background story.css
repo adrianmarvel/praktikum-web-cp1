@@ -1,0 +1,28 @@
+body
+{
+	background-color: gray;
+	background-image: url("img/geralt1.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: top right;
+	background-size: 40% 100%;
+
+}
+img.geralt1
+{
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+.spasi1
+{
+	height: 20px;
+}
+.button1
+{
+	color: white;
+}
+.konten1
+{
+	border-style: solid;
+	height: 600px;	
+}
